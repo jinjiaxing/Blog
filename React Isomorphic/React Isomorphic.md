@@ -28,6 +28,15 @@
 1：React中的ReactDOM，在客户端通过 `ReactDOM.render()`方法构建页面    
 
 2：在服务端则通过 `ReactDOMServer.renderToString()`方法构建，当然也可以通过`renderToStaticMarkup`方法，但我们这里就先不介绍了  
+
+<pre>
+<code>
+import { RouterContext } from 'react-router'  
+import { renderToString } from 'react-dom/server'
+
+const appHtml = renderToString(<App {...renderProps} />)  
+</code>
+</pre>
   
 3：在服务端渲染的页面，会为组件添加 `checksum` ，而页面渲染完成之后，客户端在拿到直出的HTML页面之后（**需要注意的是，此时只是html渲染完成，但事件绑定并未完成**)，之后客户端会对这个字段进行对比
 如果相同，则客户端不会在重新进行页面render，这样大大节省了响应时间，达到页面秒出
@@ -39,7 +48,12 @@
 
 2：另外一种是在是在服务端直接拉取好数据，存入redux的store中，之后一同发给客户端，这样做法的优势是节省了首页加载时间，但同时加大了一定的开发成本  
 
-未完待续。。。
+### Webpack自动化&一些插件  
+
+1: `babel-register`  
+2: `webpack-dev-middleware` `webpack-hot-middleware`   
+3: `babel-plugin-transform-require-ignore` 来直接忽略 css/less在服务端的require操作, 转而在 webpack-dev-middleware 中使用 style-loader 打包进 js bundle 输出, 这样也能同时支持 hot module replacement  
+4: `asset-require-hook` 这个包来使 require 操作直接返回文件路径, 服务端渲染出来的是正确的图片相对路径.
 
 	
 
