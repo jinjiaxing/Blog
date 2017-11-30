@@ -6,3 +6,6 @@
 * React Isomorphic  
   * [React 同构直出](https://github.com/jinjiaxing/FE_Study/issues/1)
 
+* web技术记录  
+  * [从数组对象中取得某对象的index](https://github.com/jinjiaxing/Blog/issues/2)
+
