@@ -9,3 +9,6 @@
 * web技术记录  
   * [从数组对象中取得某对象的index](https://github.com/jinjiaxing/Blog/issues/2)
 
+* fis3的使用 
+  * [fis3的使用说明](https://github.com/jinjiaxing/Blog/issues/3)
+
