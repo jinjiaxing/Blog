@@ -9,6 +9,9 @@
 * web技术记录  
   * [从数组对象中取得某对象的index](https://github.com/jinjiaxing/Blog/issues/2)
   * [H5中input type='search' 但键盘不显示‘搜索’按钮的解决办法](https://github.com/jinjiaxing/Blog/issues/5)
+  
+* React File Template for webstorm
+  * [WebStorm React/Jsx File template](https://github.com/jinjiaxing/Blog/blob/master/React%20Component%20for%20WebStorm)
 
 * fis3的使用 
   * [fis3的使用说明](https://github.com/jinjiaxing/Blog/issues/3)
