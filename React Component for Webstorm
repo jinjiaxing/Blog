@@ -1,0 +1,61 @@
+/**
+ * @file ${NAME}.jsx
+ * @desc
+ * @author ${USER}
+ * @data ${YEAR}/${MONTH}/${DAY}
+ */
+
+/** lib **/
+import React, {Component} from "react";
+import PropTypes from "prop-types";
+import {connect} from "react-redux";
+import {withRouter} from "react-router-dom";
+
+/** component **/
+
+/** other **/
+
+/** resources **/
+
+class ${NAME} extends Component {
+    constructor(props) {
+        super(props);
+        this.state = {};
+
+    }
+
+    static propTypes = {};
+
+    static defaultProps = {};
+
+
+    componentWillReceiveProps(nextProps) {
+    }
+
+    componentDidMount() {
+    }
+
+    componentDidUpdate() {
+    }
+
+    componentWillUpdate() {
+    }
+
+    componentWillMount() {
+    }
+
+    componentWillUnmount() {
+    }
+
+    render() {
+        return (<div></div>);
+    }
+}
+
+const mapStateToProps = (state) => {
+
+}
+
+${NAME} = withRouter(connect(mapStateToProps)(${NAME}));
+
+export default ${NAME};
