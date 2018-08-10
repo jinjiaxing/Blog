@@ -16,3 +16,6 @@
 * fis3的使用 
   * [fis3的使用说明](https://github.com/jinjiaxing/Blog/issues/3)
 
+* webpack4 文件上传到指定目录插件
+  * [webpack_upload_plugin](https://github.com/jinjiaxing/Blog/blob/master/webpack_upload_plugin.js)
+
