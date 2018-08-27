@@ -18,4 +18,7 @@
 
 * webpack4 文件上传到指定目录插件
   * [webpack_upload_plugin](https://github.com/jinjiaxing/Blog/blob/master/webpack_upload_plugin.js)
+  
+* css盒子模型的详细介绍
+  * [重新认识盒子模型](https://github.com/jinjiaxing/Blog/issues/7)
 
