@@ -24,4 +24,7 @@
   
 * css盒子模型的详细介绍
   * [重新认识盒子模型](https://github.com/jinjiaxing/Blog/issues/7)
+  
+* 前端知识点总结(可用于面试)
+  * [前端知识点总结（可用于面试复习）](https://github.com/jinjiaxing/Blog/issues/12)
 
