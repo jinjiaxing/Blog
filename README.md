@@ -27,4 +27,7 @@
   
 * 前端知识点总结(可用于面试)
   * [前端知识点总结（可用于面试复习）](https://github.com/jinjiaxing/Blog/issues/12)
+  
+* 算法
+  * [时间复杂度&排序](https://github.com/jinjiaxing/Blog/issues/13)
 
