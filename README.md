@@ -7,6 +7,8 @@
   * [React 同构直出](https://github.com/jinjiaxing/FE_Study/issues/1)
   * [Redux 源码分析(一)createStore](https://github.com/jinjiaxing/Blog/issues/9)
   * [Redux 源码分析(二)之combineReducers](https://github.com/jinjiaxing/Blog/issues/11)
+  * [Redux源码分析(三)之Compose)](https://github.com/jinjiaxing/Blog/issues/14)
+
 
 * web技术记录  
   * [从数组对象中取得某对象的index](https://github.com/jinjiaxing/Blog/issues/2)
