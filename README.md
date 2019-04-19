@@ -32,4 +32,5 @@
   
 * 算法
   * [时间复杂度&排序](https://github.com/jinjiaxing/Blog/issues/13)
+  * [BST(二叉查找树)](https://github.com/jinjiaxing/Blog/issues/16)
 
